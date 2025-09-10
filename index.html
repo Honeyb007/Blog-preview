@@ -33,7 +33,9 @@
       text-align: left;
       margin: 10px;
       border: 2px solid black;
-      box-shadow: 8px 8px 0px black;    }
+      box-shadow: 8px 8px 0px black;  
+      transition: transform 0.2s, box-shadow 0.2s;
+  }
     .card img {
       width: 320px;
       height: auto;
@@ -93,13 +95,23 @@
 
     
 
-    .attribution { font-size: 11px; text-align: center; margin-top: 15px; }
-    .attribution a { color: hsl(228, 45%, 44%);  text-decoration: none;}
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+
+
+    .attribution a {
+     color: hsl(228, 45%, 44%); 
+     text-decoration: none;
+    }
   </style>
 </head>
 <body>
   <main class="card">
-    <img src="assets/images/illustration-article.svg" alt="">
+    <img src="assets/images/illustration-article.svg" alt="illustration">
 
 
    <button>Learning</button>
@@ -111,13 +123,13 @@
    <p>  These languages are the backbone of every website, defining structure, content, and presentation.</p>
 
    <div class="author">
-    <img src="/assets/images/image-avatar.webp" alt="">
+    <img src="assets/images/image-avatar.webp" alt="avatar">
    <p>  Greg Hooper</p>
    </div>
-   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Khudeerah</a>.
-  </div>
 </main>
+<footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Honeyboo7">Khudeerah</a>.
+</footer>
 </body>
 </html>
