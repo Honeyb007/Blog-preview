@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://honeyb007.github.io/Blog-preview/)
+- Live Site URL: [https://honeyb007.github.io/Blog-preview/]
 
 
 ### Built with
@@ -55,7 +55,6 @@ Still responsiveness cause i think i'm bad at it.
 **Note: To screenshot the hover/active state, just hover over the element on the inspect page and screenshot or In Chrome DevTools, the hover state can be forced using the :hov option, and the screenshot can be captured by pressing Ctrl+Shift+P, typing “screenshot,” and selecting the desired capture option.
 ## Author
 
-- Website - [Khudeerah](https://www.your-site.com)
 - Frontend Mentor - [@Honeyb007](https://www.frontendmentor.io/profile/Honeyboo7)
 
 
